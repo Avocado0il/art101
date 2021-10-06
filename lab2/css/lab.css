@@ -1,23 +1,26 @@
 <div id="content"
 
 h1 {
-  color:blue
-
+  color: white;
+  font-size: 100%;
 }
 
 p {
   font-family: "helvetica";
+  color: white;
   text-indent: "30px";
-  margin-left: "15px";
+}
+
+img {
+  width: 600px;
 }
 
 #content {
-  background-color: yellow;
-  width: 600px;
-  min-height: 300px;
-  padding: 20px;
-  margin: 20px;
-  border: solid: 2px green;
+  background-color: black;
+  width: 350px;
+  min-height: 30px;
+  padding: 40px;
+  margin: 40px;
+  border: solid 10px red;
   font-size: 24px;
-
 }
