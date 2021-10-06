@@ -1,0 +1,23 @@
+<div id="content"
+
+h1 {
+  color:blue
+
+}
+
+p {
+  font-family: "helvetica";
+  text-indent: "30px";
+  margin-left: "15px";
+}
+
+#content {
+  background-color: yellow;
+  width: 600px;
+  min-height: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: solid: 2px green;
+  font-size: 24px;
+
+}
