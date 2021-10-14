@@ -1,23 +1,28 @@
+<div id="content"
+head {}
 h1 {
   color: Green;
-  font-size: 200%;
+  font-family: "helvetica";
+  text-indent: 35px;
+  font-size: 150%;
 }
 p{
+  font-size: 100%;
   color: White;
   font: "helvetica";
   text-indent: 20px;
   margin-left: 10px;
 }
 img{
+  padding-left: 30px;
   max-width: 500px;
   height: auto;
 }
 #content {
   /*look up the hex code of the color you want to change the bg to*/
   background-color: black;
-  width: 800px;
-  min-height: 300px;
+  min-height: 1000px;
   padding: 10px;
   margin: 10px;
-  border: solid 2px white;
+  border: solid 2px White;
   font-size: 20px;
