@@ -1,4 +1,4 @@
-head {}
+
 h1 {
   font-family: "helvetica";
   color: blue;
@@ -29,4 +29,9 @@ h2 {
 p {
   font-family: "helvetica";
   font: blue;
+  margin-left: 20px;
+}
+
+img {
+  max-width: 700px;
 }
