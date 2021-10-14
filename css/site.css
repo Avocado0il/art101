@@ -20,7 +20,7 @@ img{
 }
 #content {
   /*look up the hex code of the color you want to change the bg to*/
-  background-color: black;
+  background-color: white;
   min-height: 1000px;
   padding: 10px;
   margin: 10px;
