@@ -1,0 +1,36 @@
+
+h1 {
+  font-family: "helvetica";
+  color: blue;
+  font-size: 100%;
+  margin-left: 10px;
+}
+
+p {
+  font-family: "helvetica";
+  font: black;
+  margin-left: 20px;
+}
+
+h2 {
+  font-family: "helvetica";
+  color: black;
+  font-size: 100%;
+  margin-left: 10px;
+}
+
+#content {
+  background-color: pink;
+  width: 1300px;
+}
+
+#content {
+  border-style:outset;
+  border-color: red;
+  border-width: thick;
+}
+
+img {
+  max-width: 700px;
+  margin-left: 20px;
+}
