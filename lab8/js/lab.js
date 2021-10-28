@@ -1,7 +1,7 @@
 /**
-*@file this file defines the sortUserName class
+*@file this file 
 *@author Conner Murphy
-*@since 10.25.21
+*@since 10.27.21
 */
 
 function isEven(x){
