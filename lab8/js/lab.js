@@ -24,3 +24,6 @@ var result = array.map(function(x){
 })
 // should return [10, 9, 2, 4, 6.4, 12, 100]
 console.log("Squareroot of array:", result);
+
+var outputEl = document.getElementById("output");
+  outputEl.innerHTML = mapResults; // put your results here
