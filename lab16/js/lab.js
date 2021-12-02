@@ -24,13 +24,12 @@ function runAPI() {
       dataType: "json",
 })
 // If the request succeeds
-
 // data is passed back
 .done(function(data) {
     console.log("Success:", data);
-    var imgUrl = data.img;
-    var imgTag = "<img src=" + imgUrl + ">";
-    console.log(imgUrl, imgTag);
+    var comicObj = "https://xkcd.com/info.0.json";
+    var comicObj = data.img;
+    var imgTag = "<img src=" + comicImg + ">";
     $("#output").html(imgTag)
 })
 // If the request fails
