@@ -25,12 +25,14 @@ function runAPI() {
 })
 // If the request succeeds
 // data is passed back
-.done(function(data) {
-    console.log("Success:", data);
-    var comicObj = "https://xkcd.com/info.0.json";
-    var comicObj = data.img;
-    var imgTag = "<img src=" + comicImg + ">";
-    $("#output").html(imgTag)
+.done(function(comicObj) {
+    console.log("Success:", comicObj.title, comicObj,img, comicObj.alt);
+    var imgTitle = comicObj.title;
+    $("#title").html(imgTitle);
+    var imgTag = "<img src=" + comicObj.img + ">";
+    $("#title").html(imgTag);
+    var imgAlt = comicObj.alt;
+    $("#alt").html(imgAlt);
 })
 // If the request fails
 .fail(function(request,error) {
